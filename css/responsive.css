@@ -1,0 +1,110 @@
+@media only screen and (max-width : 800px) {
+	.wrapperInner, .content-wrapper{
+		width:97%;
+		margin:0 auto;	
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	.banWrapper .leftPart{
+		max-width:32%;
+		margin:0;	
+	}
+	.banWrapper .rightPart{
+		max-width:63%;	
+	}
+	ul.lists{
+		margin:10px auto;	
+		width: 75%;
+		text-align:left;
+	}
+	.rightPart p{
+		margin-bottom:0;	
+	}
+	.guaranteeArea{
+		padding-right:10px;
+		font-size:15px;
+		margin-top:7px;	
+	}
+	.priceTxt{
+		text-align:center;
+		margin-bottom:10px;
+		font-size:39px;
+	}
+	.rightPart h1{
+		font-size:30px;	
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	.footer p.ftTxt{
+		text-align:center;	
+	}
+	ul.ftMenu{
+		float:none;
+		display:block;
+		text-align:center;	
+	}
+	
+	.banWrapper .leftPart{
+		float:none;
+		display:block;
+		max-width:100%;
+		margin-right:0;
+		text-align:center;	
+	}
+	.banWrapper .rightPart{
+		float:none;
+		display:block;
+		max-width:100%;
+		text-align:center;	
+	}
+	.header{
+		background-color:#8d4f5a;	
+	}
+	.banBotDiv{
+		float:none;
+		display:block;
+		width:100%;	
+	}
+	.priceTxt{
+		margin-top:30px;	
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.headerTopRight{
+		margin-top:0;
+		font-size:12px;	
+	}
+	.headerTopRight a{
+		font-size:12px;	
+	}
+	.headerTopRight strong{
+		display:block;
+		font-size:14px;
+	}
+	.leftpan{
+		padding-right:0;	
+	}
+	.personName{
+		margin-bottom:36px;	
+	}
+	
+	.pure-form-stacked .l-box{
+		padding-right:0;	
+	}
+}
+
+@media only screen and (max-width : 479px) {
+.pure-g.widget{ width:300px; margin:0px auto;}
+.guaranteeArea > p{
+font-size:12px;
+}
+.pure-form input[type]{
+width:100%;
+}
+.pure-table{
+width:100%;
+}
+}
