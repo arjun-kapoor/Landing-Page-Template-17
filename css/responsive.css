@@ -1,41 +1,95 @@
+@media only screen and (max-width : 1090px) {
+	.banWrapper .rightPart{
+		float:none;
+		max-width:100%;
+		overflow:hidden;	
+	}
+	.banBotDiv{
+		float:none;
+		overflow:hidden;
+		width:auto;	
+	}
+	.guaranteeArea img{
+		margin-right:5px;	
+	}
+	.guaranteeArea > p{
+		font-size:14px;	
+	}
+	
+}
+@media only screen and (max-width : 950px) {
+	.rightPart p{
+		margin-bottom:10px;	
+	}
+	ul.lists{
+		margin:0;	
+	}
+	.rightPart h1{
+		font-size:25px;	
+	}
+	.banWrapper .leftPart{
+		max-width:260px;	
+	}
+	.banWrapper{
+		padding-bottom:0;	
+	}
+}
 @media only screen and (max-width : 800px) {
 	.wrapperInner, .content-wrapper{
 		width:97%;
 		margin:0 auto;	
 	}
+	.priceArea{
+		display:block;
+		width:100%;
+		margin-bottom:20px;
+	}
+	.header{
+		background-size:cover;	
+	}
 }
 
 @media only screen and (max-width : 768px) {
-	.banWrapper .leftPart{
-		max-width:32%;
-		margin:0;	
-	}
-	.banWrapper .rightPart{
-		max-width:63%;	
+	.rightPart p, ul.lists{
+		margin-bottom:20px;	
 	}
 	ul.lists{
-		margin:10px auto;	
-		width: 75%;
+		margin:0 auto 20px;
 		text-align:left;
-	}
-	.rightPart p{
-		margin-bottom:0;	
 	}
 	.guaranteeArea{
 		padding-right:10px;
 		font-size:15px;
 		margin-top:7px;	
+		text-align:left;
+		float:left;
 	}
 	.priceTxt{
-		text-align:center;
+		text-align:left;
 		margin-bottom:10px;
 		font-size:39px;
 	}
-	.rightPart h1{
-		font-size:30px;	
+	
+	.pure-form-stacked .l-box{
+		padding-right:0;	
+	}
+
+}
+@media only screen and (max-width : 698px) {
+	ul.lists{
+		width:75%;	
+	}
+	.priceTxt{
+		text-align:center;	
+	}
+	.guaranteeArea{
+		float:none;
+		width:80%;
+		display:table;
+		margin:0 auto;
+		padding-right:0;
 	}
 }
-
 @media only screen and (max-width : 640px) {
 	.footer p.ftTxt{
 		text-align:center;	
@@ -70,6 +124,7 @@
 	.priceTxt{
 		margin-top:30px;	
 	}
+
 }
 
 @media only screen and (max-width : 480px) {
@@ -91,20 +146,27 @@
 		margin-bottom:36px;	
 	}
 	
-	.pure-form-stacked .l-box{
-		padding-right:0;	
+	.guaranteeArea{
+		width:90%;	
+	}
+	
+	
+	.pure-g.widget{ width:270px; margin:0px auto;}
+
+	.guaranteeArea > p{
+	font-size:16px;
+	width:60%;
+	text-align:center;
+	}
+	.pure-form input[type]{
+	width:100%;
+	}
+	.pure-table{
+	width:100%;
 	}
 }
-
-@media only screen and (max-width : 479px) {
-.pure-g.widget{ width:300px; margin:0px auto;}
-.guaranteeArea > p{
-font-size:12px;
-}
-.pure-form input[type]{
-width:100%;
-}
-.pure-table{
-width:100%;
-}
+@media only screen and (max-width : 320px) {
+	.guaranteeArea > p{
+		font-size:13px;	
+	}
 }

@@ -69,7 +69,9 @@ img{
 
 .header{
 	background:url(../images/mainBg.jpg) 0 0 no-repeat;
+	border-bottom:3px solid #f3f3f3;
 	padding:15px 0 0;
+	margin-bottom:30px;
 	overflow:hidden;
 }
 	.headerTop{
@@ -109,7 +111,6 @@ img{
 *********************************/
 .banWrapper{
 	padding:30px 0;
-	border-bottom:#f3f3f3 solid 3px;
 	overflow:hidden;
 	color:#fff;	
 }
